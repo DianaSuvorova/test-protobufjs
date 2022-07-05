@@ -28,7 +28,7 @@ To repro clone the repo &
 npm install && npm index.js
 ```
 
-Loading test.proto file will fail. By contrast custom options without enum values can be loaded successfully (testValid.proto).
+Loading test.proto file will fail. By contrast testValid.proto loads successfully
 
 The difference between the 2 files is 
 
