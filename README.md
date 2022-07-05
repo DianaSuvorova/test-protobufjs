@@ -2,7 +2,7 @@
 
 Repro for protobufjs issue. 
 
-## Custom enum value options in protofile fail with 
+## Custom enum value options in proto file fails.
 
 ```js
 /Users/diana.suvorova/Dev/test-proto/node_modules/protobufjs/src/root.js:104
