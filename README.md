@@ -1,6 +1,6 @@
 # test-protobufjs
 
-Repro for protobufjs issue. 
+Repro for protobufjs issue https://github.com/protobufjs/protobuf.js/issues/1760
 
 ## Custom enum value options in proto file fails.
 
