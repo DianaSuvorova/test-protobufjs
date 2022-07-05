@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package example1;
+
+
+message MyRequest {
+  string foo = 1;
+}
+message MyResponse {
+  string bar = 1;
+}
+
+enum SideEffectTask {
+  SIDE_EFFECT_TASK_INVALID = 0 [(descriptors)={name: "Invalid Task"}];
+}
+
+message MyEnumResponse {
+  SideEffectTask sideEffectTask =0;
+}
+
+service MyTestService {
+  rpc getTest(MyRequest) returns (MyResponse);
+}
+
+service MyEnumTestService {
+  rpc getEnumTest(MyRequest) returns (MyEnumResponse);
+}
